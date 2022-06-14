@@ -1,0 +1,28 @@
+@import "../../utilities/colors.scss";
+
+.serviceContainer {
+  background-color: white;
+  padding: 30px;
+  margin-top: 40px;
+  box-shadow: 6px 6px 5px 0px rgba(0, 0, 0, 0.09);
+  -webkit-box-shadow: 6px 6px 5px 0px rgba(0, 0, 0, 0.09);
+  -moz-box-shadow: 6px 6px 5px 0px rgba(0, 0, 0, 0.09);
+  border-bottom: 4px solid map-get($map: $colors, $key: "lightGreen");
+
+  h5 {
+    font-size: 1.1rem;
+  }
+
+  p {
+    font-size: 0.95rem;
+    font-weight: 300;
+    line-height: 1.5rem;
+  }
+
+  .serviceImage {
+    height: 120px;
+    width: 160px;
+    background-position: center center;
+    background-size: cover;
+  }
+}

@@ -1,6 +1,7 @@
 import { Button } from "../../components/button/button";
 import "./index.scss";
 import { Link } from "react-router-dom";
+import { Service } from "../../components/service/service";
 
 export const Index = () => {
   return (
@@ -52,6 +53,36 @@ export const Index = () => {
               <h3>Hot Watter Taps</h3>
             </div>
           </div>
+        </div>
+      </section>
+      <section className="servicesSection">
+        <div className="sideSpacing">
+          <h2>Web Design Services</h2>
+          <Link to="/">
+            <Button colorClass="white">View All Our Services</Button>
+          </Link>
+          <Service
+            title="WordPress Development"
+            imageUrl="https://www.affiliatewebdesigners.com/assets/wordpress-web-development1.jpg"
+            description=" We create beautifully designed WordPress websites
+            that combine user experience best practices and high-end performance to
+            create something amazing."
+          />
+          <Service
+            title="Web Design & Development"
+            imageUrl="https://freshysites.com/wp-content/uploads/FS-devicemock-4-768x516.jpg"
+            description="Star Design is a digital agency in Leeds. We create bespoke websites that are lightning fast and search engine friendly, creating the perfect online presence"
+          />
+          <Service
+            title="Page Speed Optimisation"
+            imageUrl="https://www.ainygo.com/wp-content/uploads/2021/11/Page-Speed-Optimization.png"
+            description="Slower page loading times can have an enormous impact on your conversion rates an is now an important ranking factor for search engines too. Contact us to supercharge your site."
+          />
+          <Service
+            title="eCommerce Website"
+            imageUrl="https://cdn.learnwoo.com/wp-content/uploads/2018/01/WordPress-eCommerce.png"
+            description="Your website is your shop window to the online world. So make sure it's highly effective and built to convert with our affordable WooCommerce websites"
+          />
         </div>
       </section>
     </div>

@@ -17,6 +17,17 @@
     color: map-get($map: $colors, $key: "violet");
   }
 
+  &.white {
+    background-color: white;
+    border-color: map-get($map: $colors, $key: "violet");
+    color: map-get($map: $colors, $key: "violet");
+
+    &:hover {
+      background-color: map-get($map: $colors, $key: "violet");
+      color: white;
+    }
+  }
+
   &.violet {
     border-color: map-get($map: $colors, $key: "violet");
     color: map-get($map: $colors, $key: "violet");
