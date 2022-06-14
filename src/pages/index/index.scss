@@ -1,0 +1,33 @@
+@import "../../utilities/colors.scss";
+.introductionSection {
+  color: white;
+  background-position: center center;
+  background-size: cover;
+
+  a {
+    text-decoration: none;
+  }
+
+  button {
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .introductionSectionContent {
+    background-color: map-get($map: $colors, $key: "transparentPrimaryViolet");
+    padding-bottom: 120px;
+    padding-top: 120px;
+
+    h1 {
+      font-size: 2.5rem;
+    }
+
+    p {
+      font-size: 1.1rem;
+      line-height: 1.7rem;
+      margin-bottom: 35px;
+    }
+  }
+}
