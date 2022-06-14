@@ -1,9 +1,6 @@
 @import "../../utilities/colors.scss";
-.introductionSection {
-  color: white;
-  background-position: center center;
-  background-size: cover;
 
+.indexPageContainer {
   a {
     text-decoration: none;
   }
@@ -14,11 +11,17 @@
     margin-top: 20px;
     margin-bottom: 20px;
   }
+}
+
+.introductionSection {
+  color: white;
+  background-position: center center;
+  background-size: cover;
 
   .introductionSectionContent {
     background-color: map-get($map: $colors, $key: "transparentPrimaryViolet");
     padding-bottom: 120px;
-    padding-top: 120px;
+    padding-top: 180px;
 
     h1 {
       font-size: 2.5rem;
@@ -28,6 +31,34 @@
       font-size: 1.1rem;
       line-height: 1.7rem;
       margin-bottom: 35px;
+    }
+  }
+}
+
+.caseSection {
+  padding-top: 35px;
+  border-bottom: 5px solid map-get($map: $colors, $key: "lightGrey");
+
+  h2 {
+    font-size: 1.7rem;
+    padding-bottom: 10px;
+  }
+
+  .caseImageBackground {
+    background-size: cover;
+    height: 200px;
+    margin-bottom: 30px;
+  }
+
+  .caseBlackBackgroundContainer {
+    background-color: map-get($map: $colors, $key: "transparentBlack");
+    height: 100%;
+
+    h3 {
+      color: white;
+      padding-left: 40px;
+      padding-top: 40px;
+      font-size: 1.7rem;
     }
   }
 }
