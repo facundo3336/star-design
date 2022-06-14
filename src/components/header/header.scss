@@ -1,0 +1,93 @@
+@import "../../utilities/colors.scss";
+
+header {
+  padding: 20px 0;
+  background-color: map-get($map: $colors, $key: "transparentPrimaryViolet");
+  position: fixed;
+
+  width: 100%;
+  overflow: hidden;
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+  }
+
+  h1 {
+    display: none;
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+    color: white;
+  }
+
+  .popUpHeaderContent {
+    padding-left: 20px;
+  }
+
+  .navbarPopup {
+    text-align: left;
+
+    ul {
+      list-style: none;
+      padding: 0;
+
+      li {
+        line-height: 2.3rem;
+        font-size: 1.3rem;
+      }
+
+      a {
+        text-decoration: none;
+        color: black;
+        color: white;
+        font-weight: 500;
+
+        &:hover {
+          cursor: pointer;
+          color: map-get($map: $colors, $key: "lightGreen");
+        }
+      }
+    }
+  }
+
+  .popupExtraInfoContainer {
+    padding-top: 20px;
+
+    div {
+      margin-top: 25px;
+      margin-bottom: 25px;
+      text-align: left;
+    }
+
+    span {
+      color: map-get($map: $colors, $key: "lightBrown");
+      font-weight: 300;
+    }
+
+    p {
+      color: white;
+      font-weight: 300;
+      margin: 0;
+    }
+  }
+}
+
+.starLogo {
+  height: 60px;
+  width: 60px;
+  background-position: center center;
+  background-size: cover;
+}
+
+.navbarBars {
+  color: white;
+  font-size: 2rem;
+  height: 40px;
+  width: 40px;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
