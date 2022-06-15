@@ -1,0 +1,46 @@
+@import "../../src/utilities/colors.scss";
+
+.reviewContainer {
+  border: 1px solid map-get($map: $colors, $key: "lightGrey");
+  padding: 30px;
+  position: relative;
+
+  .bottomRightVioletSquare,
+  .topLeftVioletSquare {
+    width: 25px;
+    height: 25px;
+    background-color: map-get($map: $colors, $key: "violet");
+    position: absolute;
+  }
+
+  .bottomRightVioletSquare {
+    right: -10px;
+    bottom: -10px;
+  }
+
+  .topLeftVioletSquare {
+    top: -10px;
+    left: -10px;
+  }
+
+  .reviewUser {
+    font-weight: 700;
+    font-size: 0.9rem;
+  }
+
+  .reviewTimeContainer {
+    display: flex;
+    font-size: 0.7rem;
+    padding-top: 10px;
+  }
+  .starsContainer {
+    color: map-get($map: $colors, $key: "brown");
+    padding-right: 10px;
+  }
+
+  p {
+    font-size: 0.9rem;
+    font-weight: 300;
+    margin-bottom: 0;
+  }
+}

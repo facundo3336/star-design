@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import { Service } from "../../components/service/service";
 import { Post } from "../../components/post/post";
 import { InfoBox } from "../../components/info-box/info-box";
+import { Review } from "../../review/review";
 
 export const Index = () => {
   return (
@@ -155,6 +156,45 @@ export const Index = () => {
               footer="No limits, WordPress Hosting, find out more"
             />
           </Link>
+        </div>
+      </section>
+      <section className="reviewsSection">
+        <div className="sideSpacing">
+          <h2>Our happy clients</h2>
+          <div>
+            <Button colorClass="black">Our Reviews on Google</Button>
+            <div className="reviewsRatingContainer">
+              <span>5.0</span>
+              <div className="reviewsStarsContainer">
+                <i className="fa-solid fa-star"></i>
+                <i className="fa-solid fa-star"></i>
+                <i className="fa-solid fa-star"></i>
+                <i className="fa-solid fa-star"></i>
+                <i className="fa-solid fa-star"></i>
+              </div>
+            </div>
+            <img
+              src="https://static.eatstreet.com/assets/images/logos/powered-by-google.png"
+              alt="logo powered by Google"
+            />
+            <div>
+              <Review
+                user="Adam Kirk"
+                time="11 months"
+                review="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae justo facilisis, pellentesque est ut, elementum nisi. Quisque sed aliquet eros, vitae viverra est. Ut lobortis at ipsum vel iaculis. Nullam tempor arcu sed eleifend volutpat. Maecenas non neque quam. Sed non commodo lorem. Curabitur ullamcorper"
+              />
+              <Review
+                user="Annita Newton"
+                time="a year"
+                review="Tellus sapien eleifend erat, vitae facilisis lorem purus pretium ex. Aliquam lobortis pellentesque mi, volutpat volutpat leo ullamcorper interdum. Etiam quis tortor finibus, ultrices purus id, condimentum odio. In hac habitasse platea dictumst."
+              />
+              <Review
+                user="Francesca Phillippa"
+                time="a year"
+                review="Curabitur non facilisis dolor, eget malesuada mauris. In hac habitasse platea dictumst. Integer leo dui, mattis non arcu quis, lobortis consectetur mi. Fusce venenatis tincidunt eros id pellentesque. Llobortis consectetur mi. Fusce venenatis tincidunt eros id pellentesque."
+              />
+            </div>
+          </div>
         </div>
       </section>
     </div>

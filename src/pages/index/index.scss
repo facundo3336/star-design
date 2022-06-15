@@ -101,3 +101,27 @@
     font-weight: 400;
   }
 }
+
+.reviewsSection {
+  padding-top: 30px;
+  padding-bottom: 60px;
+
+  .reviewsRatingContainer {
+    font-size: 1.5rem;
+    color: map-get($map: $colors, $key: "brown");
+    padding-top: 10px;
+  }
+  .reviewsStarsContainer {
+    display: inline-block;
+    padding-left: 20px;
+  }
+
+  img {
+    max-width: 150px;
+    padding: 15px 0 30px 0;
+  }
+
+  .reviewContainer {
+    margin: 20px 0;
+  }
+}
