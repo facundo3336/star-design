@@ -1,0 +1,28 @@
+@import "../../utilities/colors.scss";
+
+.postContainer {
+  background-size: cover;
+  background-position: center center;
+  height: 300px;
+  display: flex;
+  align-items: flex-end;
+
+  .postContent {
+    background-color: map-get($map: $colors, $key: "transparentPrimaryViolet");
+    width: 100%;
+
+    h6 {
+      padding-left: 40px;
+      max-width: 220px;
+      font-size: 1.6rem;
+      color: white;
+      margin: 40px 0;
+    }
+
+    .postVioletLine {
+      height: 20px;
+      width: 100%;
+      background-color: map-get($map: $colors, $key: "violet");
+    }
+  }
+}

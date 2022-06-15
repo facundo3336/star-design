@@ -67,9 +67,18 @@
 .servicesSection {
   background-color: map-get($map: $colors, $key: "lighterGrey");
   padding-top: 30px;
-  padding-bottom: 30px;
+  padding-bottom: 60px;
 
   h2 {
     margin-bottom: 30px;
+  }
+}
+
+.postsSection {
+  padding-top: 30px;
+  padding-bottom: 60px;
+
+  button {
+    margin-bottom: 50px;
   }
 }

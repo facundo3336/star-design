@@ -2,6 +2,7 @@ import { Button } from "../../components/button/button";
 import "./index.scss";
 import { Link } from "react-router-dom";
 import { Service } from "../../components/service/service";
+import { Post } from "../../components/post/post";
 
 export const Index = () => {
   return (
@@ -82,6 +83,26 @@ export const Index = () => {
             title="eCommerce Website"
             imageUrl="https://cdn.learnwoo.com/wp-content/uploads/2018/01/WordPress-eCommerce.png"
             description="Your website is your shop window to the online world. So make sure it's highly effective and built to convert with our affordable WooCommerce websites"
+          />
+        </div>
+      </section>
+      <section className="postsSection">
+        <div className="sideSpacing">
+          <h2>Recent Posts</h2>
+          <Link to="/">
+            <Button colorClass="backgroundViolet">View all Post</Button>
+          </Link>
+          <Post
+            imageUrl="https://previews.123rf.com/images/infinityyy/infinityyy1709/infinityyy170900092/86248258-m%C3%A1quina-de-escribir-vintage-antigua-en-una-mesa-de-madera.jpg"
+            title="Classic editor vs Gutenberg"
+          />
+          <Post
+            imageUrl="https://images-na.ssl-images-amazon.com/images/S/pv-target-images/b47e97673b956ef015df1b6fe7ec9949e830eeb1dcf0e33a67494b1c8a4c04e4._RI_.jpg"
+            title="Why is Star Design so popular?"
+          />
+          <Post
+            imageUrl="https://www.poynter.org/wp-content/uploads/2020/06/shutterstock_1211814685.png"
+            title="Award-Winning Website Design for Start Design "
           />
         </div>
       </section>
