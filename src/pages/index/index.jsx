@@ -197,6 +197,44 @@ export const Index = () => {
           </div>
         </div>
       </section>
+      <section
+        style={{
+          backgroundImage: `url("https://i.pinimg.com/originals/ba/aa/17/baaa173bc09e6711adc0a88f70003ca6.jpg")`,
+        }}
+        className="whyWorkSection"
+      >
+        <div className="violetBackground">
+          <div className="sideSpacing whyWorkSectionContent">
+            <h2>Why work with Star Design?</h2>
+            <p className="whyWordParagraph">
+              Join our growing list of happy clients and let us create a
+              pixel-perfect website for you and your business
+            </p>
+            <h5>We are a web design company in Leed, what makes us great:</h5>
+            <ul>
+              <li>
+                No off-the-shelf <strong>WordPress templates</strong>
+              </li>
+              <li>
+                Hand-crafted, <strong>WordPress websites</strong>
+              </li>
+              <li>
+                Specialist <strong>UK WordPress hosting</strong>partner
+              </li>
+            </ul>
+            <ul>
+              <li>
+                Ongoing <strong>WordPress support</strong> after launch
+              </li>
+              <li>proven track record, read our reviews</li>
+              <li>
+                <strong>Pay monthly website</strong> options available
+              </li>
+            </ul>
+            <Button>Start Your Web Design Project</Button>
+          </div>
+        </div>
+      </section>
     </div>
   );
 };

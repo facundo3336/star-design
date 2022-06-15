@@ -125,3 +125,38 @@
     margin: 20px 0;
   }
 }
+
+.whyWorkSection {
+  color: white;
+  background-position: center center;
+  background-size: cover;
+
+  .violetBackground {
+    background-color: map-get($map: $colors, $key: "transparentPrimaryViolet");
+  }
+
+  .whyWordParagraph {
+    font-weight: 300;
+  }
+
+  .whyWorkSectionContent {
+    padding-top: 30px;
+    padding-bottom: 40px;
+    max-width: 80%;
+
+    ul {
+      padding-left: 20px;
+      margin-bottom: 40px;
+    }
+
+    li {
+      font-size: 0.9rem;
+      font-weight: 300;
+      margin-bottom: 3px;
+    }
+  }
+
+  h5 {
+    font-size: 1.2rem;
+  }
+}
