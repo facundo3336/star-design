@@ -1,11 +1,11 @@
 @import "../../utilities/colors.scss";
 
 .postContainer {
-  background-size: cover;
-  background-position: center center;
-  height: 300px;
-  display: flex;
-  align-items: flex-end;
+  .postBackgroundImage {
+    background-size: cover;
+    background-position: center center;
+    height: 300px;
+  }
 
   .postContent {
     background-color: map-get($map: $colors, $key: "transparentPrimaryViolet");
@@ -23,6 +23,31 @@
       height: 20px;
       width: 100%;
       background-color: map-get($map: $colors, $key: "violet");
+    }
+  }
+}
+
+@media screen and(min-width: 768px) {
+  .postContainer {
+    overflow: hidden;
+    position: relative;
+
+    .postBackgroundImage:hover {
+      transform: scale(1.04);
+      transition-duration: 0.5s;
+    }
+
+    .postBackgroundImage {
+      transform: scale(1);
+      transition-duration: 0.5s;
+    }
+
+    .postContent {
+      position: absolute;
+      bottom: 0;
+      h6 {
+        height: 70px;
+      }
     }
   }
 }

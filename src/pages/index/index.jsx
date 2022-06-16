@@ -111,22 +111,26 @@ export const Index = () => {
       </section>
       <section className="postsSection">
         <div className="sideSpacing">
-          <h2>Recent Posts</h2>
-          <Link to="/">
-            <Button colorClass="backgroundViolet">View all Post</Button>
-          </Link>
-          <Link to="/">
-            <Post
-              imageUrl="https://previews.123rf.com/images/infinityyy/infinityyy1709/infinityyy170900092/86248258-m%C3%A1quina-de-escribir-vintage-antigua-en-una-mesa-de-madera.jpg"
-              title="Classic editor vs Gutenberg"
-            />
-          </Link>
-          <Link to="/">
-            <Post
-              imageUrl="https://images-na.ssl-images-amazon.com/images/S/pv-target-images/b47e97673b956ef015df1b6fe7ec9949e830eeb1dcf0e33a67494b1c8a4c04e4._RI_.jpg"
-              title="Why is Star Design so popular?"
-            />
-          </Link>
+          <div className="postsTitleContainer">
+            <h2>Recent Posts</h2>
+            <Link to="/">
+              <Button colorClass="backgroundViolet">View all Post</Button>
+            </Link>
+          </div>
+          <div className="postsContainer">
+            <Link to="/">
+              <Post
+                imageUrl="https://previews.123rf.com/images/infinityyy/infinityyy1709/infinityyy170900092/86248258-m%C3%A1quina-de-escribir-vintage-antigua-en-una-mesa-de-madera.jpg"
+                title="Classic editor vs Gutenberg"
+              />
+            </Link>
+            <Link to="/">
+              <Post
+                imageUrl="https://images-na.ssl-images-amazon.com/images/S/pv-target-images/b47e97673b956ef015df1b6fe7ec9949e830eeb1dcf0e33a67494b1c8a4c04e4._RI_.jpg"
+                title="Why is Star Design so popular?"
+              />
+            </Link>
+          </div>
           <Link to="/">
             <Post
               imageUrl="https://www.poynter.org/wp-content/uploads/2020/06/shutterstock_1211814685.png"

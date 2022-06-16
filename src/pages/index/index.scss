@@ -238,4 +238,25 @@
       }
     }
   }
+
+  .postsSection {
+    .postsContainer {
+      margin-bottom: 25px;
+      display: flex;
+      justify-content: center;
+
+      a {
+        width: 100%;
+      }
+    }
+
+    .postsTitleContainer {
+      display: flex;
+      justify-content: space-between;
+
+      .button {
+        width: 300px;
+      }
+    }
+  }
 }
