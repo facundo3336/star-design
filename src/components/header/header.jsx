@@ -11,7 +11,7 @@ export const Header = () => {
   }
 
   return (
-    <header>
+    <header className=".header">
       {isPopupOpen && (
         <Popup close={closeOpenPopup}>
           <div className="popUpHeaderContent">
