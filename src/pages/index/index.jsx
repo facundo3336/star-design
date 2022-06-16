@@ -34,10 +34,12 @@ export const Index = () => {
       </section>
       <section className="caseSection">
         <div className="sideSpacing">
-          <h2>Case Studies</h2>
-          <Link to="/">
-            <Button colorClass="violet">View Case Studies</Button>
-          </Link>
+          <div className="caseSectionTitleContainer">
+            <h2>Case Studies</h2>
+            <Link to="/">
+              <Button colorClass="violet">View Case Studies</Button>
+            </Link>
+          </div>
           <div
             className="caseImageBackground"
             style={{
@@ -46,6 +48,9 @@ export const Index = () => {
           >
             <div className="caseBlackBackgroundContainer">
               <h3>Gen M</h3>
+              <Link to="/">
+                <Button>View Project</Button>
+              </Link>
             </div>
           </div>
           <div
@@ -56,6 +61,9 @@ export const Index = () => {
           >
             <div className="caseBlackBackgroundContainer">
               <h3>Hot Watter Taps</h3>
+              <Link to="/">
+                <Button>View Project</Button>
+              </Link>
             </div>
           </div>
         </div>

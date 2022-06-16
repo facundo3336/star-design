@@ -58,6 +58,10 @@
     background-color: map-get($map: $colors, $key: "transparentBlack");
     height: 100%;
 
+    .button {
+      display: none;
+    }
+
     h3 {
       color: white;
       padding-left: 40px;
@@ -189,6 +193,33 @@
           margin-right: 25px;
           margin-top: 0;
         }
+      }
+    }
+
+    .caseSection {
+      .caseSectionTitleContainer {
+        display: flex;
+        justify-content: space-between;
+
+        .button {
+          width: 300px;
+        }
+      }
+
+      .caseBlackBackgroundContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        .button {
+          display: block;
+          width: 250px;
+          margin: 0 0 100px 30px;
+        }
+      }
+
+      .caseImageBackground {
+        height: 300px;
       }
     }
   }
