@@ -95,3 +95,37 @@ header {
     cursor: pointer;
   }
 }
+
+@media screen and(min-width: 768px) {
+  header {
+    .logoLink {
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+    }
+
+    h1 {
+      font-family: "Lemon", cursive;
+      display: block;
+      margin-left: 10px;
+      font-weight: 600;
+      font-size: 2.5rem;
+    }
+
+    .popUpHeaderContent {
+      display: flex;
+      justify-content: space-around;
+
+      a {
+        display: block;
+        text-decoration: none;
+      }
+    }
+
+    .popupExtraInfoContainer {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+    }
+  }
+}

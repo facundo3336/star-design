@@ -38,35 +38,35 @@ export const Header = () => {
               </ul>
             </nav>
             <div className="popupExtraInfoContainer">
-              <div>
+              <a href="tel:123 343 541">
                 <span>Give us a ring</span>
                 <p>0113 873 0189</p>
-              </div>
-              <div>
+              </a>
+              <a href="https://outlook.live.com">
                 <span>Send us an email</span>
                 <p>star-desing@gmail.com</p>
-              </div>
-              <div>
+              </a>
+              <Link to="/">
                 <span>Want a quote?</span>
                 <p>Start Your Proyect</p>
-              </div>
+              </Link>
             </div>
           </div>
         </Popup>
       )}
       <div className="header">
-        <Link to={"/"}>
+        <Link className="logoLink" to={"/"}>
           <div
             className="starLogo"
             style={{
               backgroundImage: `url("https://images.vexels.com/media/users/3/134164/isolated/preview/eb58326373abbbb33c0a0558f6f402d2-estrella-explosion-amarilla-9.png?fmt=webp&h=250")`,
             }}
           ></div>
+          <h1>Star Design</h1>
         </Link>
         <div className="navbarBars">
           <i onClick={closeOpenPopup} className="fa-solid fa-bars"></i>
         </div>
-        <h1>Star Design</h1>
       </div>
     </header>
   );
