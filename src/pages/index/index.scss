@@ -76,6 +76,10 @@
   padding-top: 30px;
   padding-bottom: 60px;
 
+  a {
+    color: black;
+  }
+
   h2 {
     margin-bottom: 30px;
   }
@@ -220,6 +224,17 @@
 
       .caseImageBackground {
         height: 300px;
+      }
+    }
+  }
+
+  .servicesSection {
+    .servicesTitleContainer {
+      display: flex;
+      justify-content: space-between;
+
+      .button {
+        width: 300px;
       }
     }
   }

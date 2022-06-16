@@ -4,7 +4,7 @@ Se trata de un proyecto de servicios para crear tu pagina web.
 
 El proyecto aun esta en desarrollo.
 
-En este proyecto se utilizo Node JS, React (HTML5, CSS3, Javascript), SASS, Google Fonts, Font Awesome.
+En este proyecto se utilizo Node JS, React (HTML5, CSS3, Javascript), SASS, Google Fonts, Font Awesome y Animate.css.
 
 Pasos a seguir para hacer funcionar el proyecto:
 
