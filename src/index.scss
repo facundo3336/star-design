@@ -16,3 +16,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+@media screen and(min-width:768px) {
+  .sideSpacing {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}

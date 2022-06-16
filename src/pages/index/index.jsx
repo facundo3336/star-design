@@ -22,12 +22,14 @@ export const Index = () => {
             wonders with WordPress to offer design, development and support
             services
           </p>
-          <Link to="/">
-            <Button>About Star Design</Button>
-          </Link>
-          <Link to="/">
-            <Button>Start Your Project</Button>
-          </Link>
+          <div className="introductionButtonsContainer">
+            <Link to="/">
+              <Button>About Star Design</Button>
+            </Link>
+            <Link to="/">
+              <Button>Start Your Project</Button>
+            </Link>
+          </div>
         </div>
       </section>
       <section className="caseSection">
